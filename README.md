@@ -16,50 +16,50 @@ RAGs hervor.
 
 Generelles Theme von RAG: Verbindung von Algorithmik mit narrativen LLM Fähigkeiten.
 
-**Business Analytics:**
+**-> Business Analytics:**
 
--> Performance Analyse von Retriever-Konfigurationen nach Information Retrieval Metriken (Precision, Recall, F1, MRR, NDCG) und Ergebnisanalyse des Generators nach LLM-as-a-Judge Verfahren
+Performance Analyse von Retriever-Konfigurationen nach Information Retrieval Metriken (Precision, Recall, F1, MRR, NDCG) und Ergebnisanalyse des Generators nach LLM-as-a-Judge Verfahren
 
--> Auswerten und Interpretieren der Metriken
+Auswerten und Interpretieren der Metriken
 
-**Business Intelligence:**
+**-> Business Intelligence:**
 
--> Visualisierung der Retriever und Generator Ergebnisse in Visuals aufgrund ihres Datenmodells mit Calculated Columns, Measures und Filter
+Visualisierung der Retriever und Generator Ergebnisse in Visuals aufgrund ihres Datenmodells mit Calculated Columns, Measures und Filter
 
-**Software-Engineering:**
+**-> Software-Engineering:**
 
 Komplette Überarbeitung der RAG-Webapp in Frontend und Backend + Modifizieren des Retriever
 
-**Backend:**
+**-> Backend:**
 
--> Neue Code-Struktur und Pipeline, um automatisiert Retrieval-Konfigurationslinien zu initialisieren (Chunking, Embedding, Indexing, Scoring)
+Neue Code-Struktur und Pipeline, um automatisiert Retrieval-Konfigurationslinien zu initialisieren (Chunking, Embedding, Indexing, Scoring)
 
--> Bewertungssystem mit Endpunkt für den Export der Ratings (Join von relationaler SQLite mit Milvus Vektordatenbank zur Export Laufzeit)
+Bewertungssystem mit Endpunkt für den Export der Ratings (Join von relationaler SQLite mit Milvus Vektordatenbank zur Export Laufzeit)
 
--> Endpunkt um Ratings vom Frontend an das Backend zu schicken und in SQLite zu schreiben
+Endpunkt um Ratings vom Frontend an das Backend zu schicken und in SQLite zu schreiben
 
-**Frontend:**
+**-> Frontend:**
 
--> Webapp UI Rail für Evaluierung der Chunks
+Webapp UI Rail für Evaluierung der Chunks
 
--> Frontend Logik in Bezug auf das Rail, Container und Webstruktur
+Frontend Logik in Bezug auf das Rail, Container und Webstruktur
 
-**Modelle und Algorithmen:**
+**-> Modelle und Algorithmen:**
 
--> Retriever Komponenten (Chunking Strategien, Embedding Modelle, Indexing Verfahren, Scoring Modelle)
+Retriever Komponenten (Chunking Strategien, Embedding Modelle, Indexing Verfahren, Scoring Modelle)
 
--> Suchalgorithmen für Ähnlichkeitssuche
+Suchalgorithmen für Ähnlichkeitssuche
 
-**Datenbanken:**
+**-> Datenbanken:**
 
--> Vektordatenbank Milvus
+Vektordatenbank Milvus
 
--> Relationale Datenbank SQLite
+Relationale Datenbank SQLite
 
-**Large Language Models:**
+**-> Large Language Models:**
 
--> Funktionsweise Input, Intermediate, Output Layer
+Funktionsweise Input, Intermediate, Output Layer
 
--> Augmentation in Input, Intermediate, Output Layer
+Augmentation in Input, Intermediate, Output Layer
 
--> Prompt-Engineering
+Prompt-Engineering
