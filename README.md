@@ -40,7 +40,7 @@ Endpunkt um Ratings vom Frontend an das Backend zu schicken und in SQLite zu sch
 
 **-> Frontend:**
 
-Webapp UI Rail für Evaluierung der Chunks
+Webapp UI-Rail für Evaluierung der Chunks
 
 Frontend Logik in Bezug auf das Rail, Container und Webstruktur
 
